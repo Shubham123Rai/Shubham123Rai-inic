@@ -1,0 +1,29 @@
+{
+    "name": "shubham123rai/inic",
+    "description": "This package is for demo purpose",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            
+            "Shubham123Rai\\Inic\\": "src/"
+        }
+
+    },
+    "authors": [
+        {
+            "name": "Shubham123Rai",
+            "email": "shubham.rai@algoworks.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "10.x-dev",
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0.1"
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
